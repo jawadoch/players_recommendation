@@ -50,20 +50,7 @@ venv\Scripts\activate
 
 pip install -r requirements.txt
 
-3. **Run the Streamlit app**:
+2. **Run the Streamlit app**:
 
 ```bash
 streamlit run app.py
-## Interface Overview
-
-Below is a visual representation of the **Player Scouting Recommendation System** interface:
-
-![Player Scouting Recommendation System Interface](./img/ziyech.png)
-
-In this example, you can see a search for **Hakim Ziyech**, and the system displays his key statistics along with the top 10 most similar players.
-
-
-## Contributors
-
-- **JAOUAD OUCHBAR** – Data Engineering
-
