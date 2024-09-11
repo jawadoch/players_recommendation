@@ -4,7 +4,14 @@
 The **Player Scouting Recommendation System** is designed to recommend football players based on their statistical similarities. Users can input a player's name, and the system will retrieve the top 10 most similar players using cosine similarity based on player statistics. The system uses Apache Solr for data storage and retrieval, while the interface is built with Streamlit.
 
 ## Project Structure
-/project-root ├── img/ # Directory for storing images for README ├── app.py # Main application file for Streamlit interface ├── docker-compose.yml # Docker setup for running Solr ├── players.csv # Dataset containing player statistics ├── README.md # Project documentation (this file) ├── requirements.txt # Python dependencies └── solr.ipynb # Jupyter notebook for Solr
+/project-root
+│── img 
+├── app.py                    # Main application file for Streamlit interface
+├── docker-compose.yml        # Docker setup for running Solr
+├── players.csv               # Dataset containing player statistics
+├── README.md                 # Project documentation 
+├── requirements.txt          # Python dependencies
+└── solr.ipynb                # Jupyter notebook for Solr interaction and queries
 ## Features
 - Search for a player by name.
 - Display key statistics for the player such as goals, assists, xG, xA, and more.
