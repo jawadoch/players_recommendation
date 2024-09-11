@@ -36,15 +36,9 @@ The **Player Scouting Recommendation System** is designed to recommend football 
 2. **Install Python dependencies**:
 
     ```bash
-    python -m venv venv
-    source venv/bin/activate  # For Linux/Mac
-# or for Windows
-    venv\Scripts\activate
-
     pip install -r requirements.txt
 
 3. **Run the Streamlit app**:
-
     ```bash
     streamlit run app.py
 ## Interface Overview
